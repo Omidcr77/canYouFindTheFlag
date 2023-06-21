@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Can You Find The Flag?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Can You Find The Flag?</h1>
+  <p>How about some hide and seek, huh?</p>
+  <p>Download this file and find the flag.</p>
+  <a href="flag.txt" class="download-link">Download</a>
+
+  <br><br>
+
+  <label for="flag-input">Enter the flag:</label>
+  <input type="text" id="flag-input" class="text-field">
+  <button onclick="checkFlag()" class="submit-btn">Submit</button>
+
+
+  <br><br>
+
+  <button onclick="showHint()" class="submit-btn">Hint</button>
+  <p id="hint-text" style="display: none;">The flag format should be like this: OmidCTF{your flag code here}</p>
+
+  <script src="script.js"></script>
+</body>
+</html>

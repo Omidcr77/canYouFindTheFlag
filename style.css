@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    color: #336699;
+  }
+
+  p {
+    color: #666666;
+  }
+
+  .download-link {
+    background-color: #336699;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .submit-btn {
+    background-color: #336699;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .text-field {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
